@@ -3,27 +3,27 @@ export const PartnersSection = () => {
     {
       name: "NNPC",
       description: "Fuel and energy supply",
-      logo: "http://googleusercontent.com/image_collection/image_retrieval/15476509850897677595_0",
+      logo: "/assets/nnpc.webp",
     },
     {
       name: "Zenith Bank",
       description: "Payment infrastructure",
-      logo: "http://googleusercontent.com/image_collection/image_retrieval/11765241653189454381_0",
+      logo: "/assets/zenith.webp",
     },
     {
       name: "Dangote Group",
       description: "Strategic fuel procurement",
-      logo: "http://googleusercontent.com/image_collection/image_retrieval/1273933891509945418_0",
+      logo: "/assets/dangote.webp",
     },
     {
       name: "Flutterwave",
       description: "Digital booking payments",
-      logo: "http://googleusercontent.com/image_collection/image_retrieval/11059629619750636160_0",
+      logo: "/assets/flutterwave.webp",
     },
     {
       name: "Toyota Nigeria",
       description: "Fleet maintenance and parts",
-      logo: "http://googleusercontent.com/image_collection/image_retrieval/4760134286399831814_0",
+      logo: "/assets/toyota.webp",
     },
   ];
 
