@@ -19,7 +19,7 @@ const STEPS = [
     accentLight: "#E1F5EE",
     heading: "Every bus stop. Precisely mapped.",
     body: "We digitise every transit route across Benue State using a Google Maps wrapper with AI-powered optimisation. Bus stops are geo-tagged, distances calculated, and routes structured into a live, queryable database — no more navigating by memory.",
-    stat: "120+",
+    stat: "100+",
     statLabel: "Routes Mapped",
     tag: "Infrastructure Layer",
   },
