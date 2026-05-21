@@ -8,6 +8,7 @@ import { TeamSection } from "@/components/Team";
 import { PartnersSection } from "@/components/PartnershipSection";
 import { Contact } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
+import { HowItWorks } from "@/components/HowItWorks";
 
 export default function Home() {
   return (
@@ -21,8 +22,12 @@ export default function Home() {
       </div>
 
       <IntroSection />
+
       <div id="about">
         <AboutUs />
+      </div>
+      <div>
+        <HowItWorks />
       </div>
       <div id="business">
         <BusinessTabs />
