@@ -157,7 +157,7 @@ export const Contact = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-[hsl(var(--green-accent))] flex-shrink-0" />
-                    <p>contact@benuetransit.com</p>
+                    <p>contact@Benutra.com</p>
                   </div>
                 </div>
               </div>

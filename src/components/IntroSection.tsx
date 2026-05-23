@@ -157,10 +157,9 @@ export const IntroSection = () => {
                   Every bus stop. Every naira.
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                  BenueTransit brings structure to chaos. Automatically
-                  calculate distance between every bus stop across all Benue
-                  routes using our Google Maps wrapper with AI route
-                  optimization.
+                  Benutra brings structure to chaos. Automatically calculate
+                  distance between every bus stop across all Benue routes using
+                  our Google Maps wrapper with AI route optimization.
                 </p>
               </div>
 

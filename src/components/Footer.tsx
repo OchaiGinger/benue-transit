@@ -58,12 +58,12 @@ export const Footer = () => {
           >
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="benue-transit-logo.png"
+                src="benutra_logo.png"
                 alt="Benue Transit Logo"
                 className="h-10 w-10 object-contain"
               />
               <h3 className="text-xl lg:text-2xl font-bold text-white">
-                BENUE TRANSIT
+                BENUTRA
               </h3>
             </div>
             <p className="text-white/90 font-medium text-sm lg:text-base">
@@ -102,7 +102,7 @@ export const Footer = () => {
               Contact
             </h4>
             <p className="text-white font-medium text-sm lg:text-base">
-              www.benuetransit.com
+              www.Benutra.com
             </p>
             <p className="text-white font-medium text-sm lg:text-base mt-2">
               +234 800 BENUE TRANSIT

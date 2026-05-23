@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import Image from "next/image";
 
 export const Navigation = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -67,17 +68,19 @@ export const Navigation = () => {
     >
       <div className="container mx-auto px-4 py-4 lg:px-8">
         <div className="flex items-center justify-between">
-          <a
-            href="#"
-            className="flex items-center space-x-3 gsap-nav-item group"
-          >
-            <div className="w-10 h-10 bg-[hsl(var(--green-accent))] rounded-xl flex items-center justify-center transform group-hover:rotate-12 transition-all">
-              <svg viewBox="0 0 24 24" className="w-6 h-6 fill-white">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-              </svg>
+          <a href="#" className="flex items-center  gsap-nav-item group">
+            <div className="h-10 flex items-center overflow-visible">
+              <Image
+                src="/benutra_logo.png"
+                alt="Benutra Logo"
+                width={140}
+                height={140}
+                priority
+                className="w-auto h-20 object-contain transform group-hover:scale-105 transition-transform duration-300"
+              />
             </div>
             <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">
-              BenueTransit
+              Benutrsa
             </h1>
           </a>
 

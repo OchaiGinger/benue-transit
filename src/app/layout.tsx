@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "BenueTransit — Digital Transport Intelligence",
+  title: "Benutra — Digital Transport Intelligence",
   description: "Powering the future of transport in Benue State.",
 };
 

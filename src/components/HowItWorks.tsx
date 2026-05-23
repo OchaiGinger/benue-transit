@@ -30,7 +30,7 @@ const STEPS = [
     accentColor: "#EF9F27",
     accentLight: "#FAEEDA",
     heading: "Scan in. Fare computed. Revenue secured.",
-    body: "Passengers and conductors interact with BenueTransit through a lightweight digital ticket system. Fares are auto-calculated based on verified distance data — eliminating manual pricing, under-reporting, and cash leakage from the first kilometre to the last.",
+    body: "Passengers and conductors interact with Benutra through a lightweight digital ticket system. Fares are auto-calculated based on verified distance data — eliminating manual pricing, under-reporting, and cash leakage from the first kilometre to the last.",
     stat: "₦0",
     statLabel: "Manual Fare Errors",
     tag: "Transaction Layer",

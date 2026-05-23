@@ -94,7 +94,7 @@ export const AboutUs = () => {
               </span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              About BenueTransit
+              About Benutraa
             </h1>
             <div className="w-24 h-1 bg-[hsl(var(--orange))] mx-auto mb-6"></div>
             <p className="text-lg md:text-xl text-white/90 leading-relaxed">
@@ -162,10 +162,10 @@ export const AboutUs = () => {
                 Modernizing Logistics through Intelligence
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                BenueTransit is an advanced digital initiative dedicated to
-                transforming how transport and logistics function within Benue
-                State. We bridge the gap between traditional transit systems and
-                smart, scalable digital solutions.
+                Benutraanced digital initiative dedicated to transforming how
+                transport and logistics function within Benue State. We bridge
+                the gap between traditional transit systems and smart, scalable
+                digital solutions.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 By integrating real-time analytics with robust infrastructure
