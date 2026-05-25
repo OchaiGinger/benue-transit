@@ -6,7 +6,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* BenueTransit Brand Colors injected as HSL for the components */
+  /* Benura Brand Colors injected as HSL for the components */
   --green-accent: 161 69% 36%; /* #1D9E75 */
   --green-light: 160 55% 92%;  /* #E1F5EE */
   --orange: 36 86% 54%;        /* #EF9F27 */

@@ -80,7 +80,7 @@ export const Navigation = () => {
               />
             </div>
             <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">
-              Benutrsa
+              Benutra
             </h1>
           </a>
 
