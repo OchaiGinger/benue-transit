@@ -165,9 +165,9 @@ export const Contact = () => {
               <div className="hidden lg:block relative mt-12">
                 <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--green-light))]/20 to-[hsl(var(--green-accent))]/10 rounded-3xl blur-3xl"></div>
                 <img
-                  src="benue-transit-logo.png"
+                  src="benutra_logo.png"
                   alt="Benue Transit Logo"
-                  className="relative w-32 h-32 object-contain opacity-10 mx-auto"
+                  className="relative w-500 h-50 object-contain opacity-10 mx-auto"
                 />
               </div>
             </div>

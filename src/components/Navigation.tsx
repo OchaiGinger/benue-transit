@@ -1,6 +1,6 @@
 "use client";
 import { Menu } from "lucide-react";
-import { useState, useEffect, useRef } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
@@ -10,13 +10,16 @@ export const Navigation = () => {
   const [activeSection, setActiveSection] = useState("");
   const navRef = useRef<HTMLElement>(null);
 
-  const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About Us", href: "#about" },
-    { name: "Business", href: "#business" },
-    { name: "Stats", href: "#stats" },
-    { name: "Team", href: "#team" },
-  ];
+  const navLinks = useMemo(
+    () => [
+      { name: "Home", href: "#home" },
+      { name: "About Us", href: "#about" },
+      { name: "Business", href: "#business" },
+      { name: "Stats", href: "#stats" },
+      { name: "Team", href: "#team" },
+    ],
+    [],
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -64,19 +67,19 @@ export const Navigation = () => {
   return (
     <nav
       ref={navRef}
-      className="fixed top-0 w-full z-50 bg-[#0D1F1A]/85 backdrop-blur-md border-b border-[hsl(var(--green-accent))]/15 shadow-lg"
+      className="fixed top-0 left-0 w-full z-50 bg-[#0D1F1A]/85 backdrop-blur-md border-b border-[hsl(var(--green-accent))]/15 shadow-lg"
     >
-      <div className="container mx-auto px-4 py-4 lg:px-8">
-        <div className="flex items-center justify-between">
-          <a href="#" className="flex items-center  gsap-nav-item group">
-            <div className="h-10 flex items-center overflow-visible">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="flex h-16 md:h-20 items-center justify-between">
+          <a href="#home" className="flex items-center gsap-nav-item group">
+            <div className="h-12 md:h-14 flex items-center overflow-hidden">
               <Image
                 src="/benutra_logo.png"
                 alt="Benutra Logo"
                 width={140}
                 height={140}
                 priority
-                className="w-auto h-20 object-contain transform group-hover:scale-105 transition-transform duration-300"
+                className="w-auto h-16 md:h-20 object-contain transform group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">

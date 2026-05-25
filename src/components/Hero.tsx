@@ -49,7 +49,7 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-[600px] md:h-[700px] lg:h-[750px] flex items-center justify-start overflow-hidden pb-32 sm:pb-36 md:pb-0 pt-20 sm:pt-50 md:pt-28">
+    <section className="relative h-[680px] md:h-[700px] lg:h-[750px] flex items-center justify-start overflow-hidden pb-32 sm:pb-36 md:pb-0 pt-36 sm:pt-40 md:pt-28">
       {/* Background Slides */}
       {heroImages.map((image, index) => (
         <div
@@ -101,7 +101,7 @@ export const Hero = () => {
             The Digital Map <br className="hidden md:block" />
             Powering{" "}
             <span className="text-[hsl(var(--green-accent))]">
-              Benue's
+              Benue&apos;s
             </span>{" "}
             Transport
           </h1>

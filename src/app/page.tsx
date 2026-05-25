@@ -17,32 +17,32 @@ export default function Home() {
       <Navigation />
 
       {/* Hero section */}
-      <div id="home">
+      <div id="home" className="scroll-mt-16 md:scroll-mt-20">
         <Hero />
       </div>
 
       <IntroSection />
 
-      <div id="about">
+      <div id="about" className="scroll-mt-20 md:scroll-mt-24">
         <AboutUs />
       </div>
       <div>
         <HowItWorks />
       </div>
-      <div id="business">
+      <div id="business" className="scroll-mt-20 md:scroll-mt-24">
         <BusinessTabs />
       </div>
-      <div id="stats">
+      <div id="stats" className="scroll-mt-20 md:scroll-mt-24">
         <StatsSection />
       </div>
 
-      <div id="team">
+      <div id="team" className="scroll-mt-20 md:scroll-mt-24">
         <TeamSection />
       </div>
-      <div id="partners">
+      <div id="partners" className="scroll-mt-20 md:scroll-mt-24">
         <PartnersSection />
       </div>
-      <div id="contact">
+      <div id="contact" className="scroll-mt-20 md:scroll-mt-24">
         <Contact />
       </div>
       <Footer />
