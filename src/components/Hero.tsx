@@ -49,7 +49,7 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-[600px] md:h-[700px] lg:h-[750px] flex items-center justify-start overflow-hidden pb-32 sm:pb-36 md:pb-0 pt-20 sm:pt-24 md:pt-28">
+    <section className="relative h-[600px] md:h-[700px] lg:h-[750px] flex items-center justify-start overflow-hidden pb-32 sm:pb-36 md:pb-0 pt-20 sm:pt-50 md:pt-28">
       {/* Background Slides */}
       {heroImages.map((image, index) => (
         <div
