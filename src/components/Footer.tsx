@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaLinkedin } from "react-icons/fa";
 
 const busHero1 =
-  "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2000&auto=format&fit=crop";
+  "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=2000&auto=format&fit=crop";
 
 export const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -102,10 +102,10 @@ export const Footer = () => {
               Contact
             </h4>
             <p className="text-white font-medium text-sm lg:text-base">
-              www.Benutra.com
+              www.benutra.org
             </p>
             <p className="text-white font-medium text-sm lg:text-base mt-2">
-              +234 800 BENUE TRANSIT
+              +234 812 212 6138
             </p>
             <p className="text-white font-medium text-sm lg:text-base mt-2">
               Makurdi, Benue State

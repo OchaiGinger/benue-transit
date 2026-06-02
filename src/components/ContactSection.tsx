@@ -153,11 +153,11 @@ export const Contact = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="w-5 h-5 text-[hsl(var(--green-accent))] flex-shrink-0" />
-                    <p>+234 800 BENUE TRANSIT</p>
+                    <p>+234 812 212 6138</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-[hsl(var(--green-accent))] flex-shrink-0" />
-                    <p>contact@Benutra.com</p>
+                    <p>contact@benutra.org</p>
                   </div>
                 </div>
               </div>

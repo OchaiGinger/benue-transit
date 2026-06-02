@@ -9,24 +9,24 @@ export const TeamSection = () => {
   // Updated names and image filenames
   const team = [
     {
-      name: "Terna A. Orshi",
-      role: "Managing Director",
+      name: "Victor",
+      role: "Chief Executive Officer",
       description: "Driving regional transit efficiency and strategic growth",
-      imgSrc: "/assets/matthew_odeh.png",
+      imgSrc: "/assets/victor_ceo.png",
       linkedin: "",
     },
     {
       name: "Sarah M. Ngutsav",
-      role: "Logistics Coordinator",
+      role: "Chief Technical Officer",
       description: "Managing seamless delivery networks and fleet safety",
-      imgSrc: "/assets/stella_jonathan.png",
+      imgSrc: "/assets/sarah_ngutsav.png",
       linkedin: "",
     },
     {
-      name: "David T. Iorapusu",
+      name: "David Onah",
       role: "Operations Lead",
       description: "Overlooking daily transit schedules and service quality",
-      imgSrc: "/assets/steven_ager.png",
+      imgSrc: "/assets/david_onah.png",
       linkedin: "",
     },
   ];
